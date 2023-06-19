@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.flex-container {   
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,9 @@
+<h1>Templates</h1>
+<%= @user.email %>
+<% if @user.role == 0 %>
+  <p>admin</p>
+<% elsif @user.role == 1 %>
+  <p>User</p>
+<% else %>
+  <p>Undefined Data</p>
+<% end %>
